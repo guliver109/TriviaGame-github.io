@@ -1,0 +1,29 @@
+.navbar {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+    height: 90px;
+    background-color: blanchedalmond;
+}
+/*for header text*/
+.navbar-top { 
+    font-size: 24px;
+}
+.navbar-footer {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+    height: 90px;
+    background-color: blanchedalmond;
+}
+/*for footer text*/
+.navbar-brand {
+    padding-top: 40px;
+    font-size: 24px;
+}
+.answerButtons {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}

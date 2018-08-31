@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head charset="UTF-8">
+        <!--JQUERY-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!--BOOTSRAP-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <!--CSS-->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!--JAVASCRIPT-->
+	    <script type="text/javascript" src="assets/javascript/app.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Basic Quiz</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <a class="navbar-top" href="#">
+                 <img src="#ß" width="30" height="30" class="d-inline-block align-top" alt="">Bootstrap </a>
+            </nav>
+        </header>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div id = "questions">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div id = startButton></div>
+                        <button id = "start" type="button" class="btn btn-primary btn-lg">Start Quiz</button>
+                        <div id="show-number"></div>
+                    </div>
+                </div>
+            <div class="row">
+                <div class="col-sm-10">
+                    <div class="answerButtons">
+                        <div class="form-check form-check-inline">
+                            <input id="inlineRadio1" class="form-check-input" type="radio" name="RadioOption1" id="inlineRadio1" value="option1">
+                            <label id="inlineRadio1" class= "inlineRadio1 form-check-label" for="inlineRadio1">a</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input id="inlineRadio2" class="form-check-input" type="radio" name="RadioOption" id="inlineRadio2" value="option2">
+                            <label class=" inlineRadio2 form-check-label" for="inlineRadio">b</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input  id="inlineRadio3"class="form-check-input" type="radio" name="RadioOption" id="inlineRadio3" value="option3">
+                            <label class="inlineRadio3 form-check-label" for="inlineRadio3">c</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input id="inlineRadio4" class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                            <label class="inlineRadio4 form-check-label" for="inlineRadio3">d</label>
+                        </div>
+                        <div>
+                            <input class="btn btn-primary" type="submit" value="Submit" onclick = "">
+                        </div>
+                        <div class = "navigationButtons">
+                                <button id = "prevButton" type="button" class="btn btn-primary btn-sm">Previous</button>
+                                <button id = "nextButton" type="button" class="btn btn-secondary btn-sm">Next</button>
+                        </div>
+                    </div>      
+                </div>
+                <div class="col-sm-2">
+                        <div id = "resetButton">
+                        <label class="btn btn-secondary active">
+                            <button id = "reset" type="button" class="btn btn-primary btn-lg">Reset Quiz</button>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <footer>
+        <nav class="navbar-footer">
+            <a class="navbar-brand" href="#">
+             <img src="#" width="30" height="30" class="d-inline-block align-top" alt="">Bootstrap </a>
+        </nav>
+    </footer>
+</html>
